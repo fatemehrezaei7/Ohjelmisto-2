@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teh3</title>
+</head>
+<body>
+    <script>
+        let num1Str = prompt("Anna ensimmäinen kokonaisluvun:");
+        let num2Str = prompt("Anna toinen kokonaisluvun:");
+        let num3Str = prompt("Anna kolmas kokonaisluvun:");
+
+        let num1 = parseInt(num1Str)
+        let num2 = parseInt(num2Str)
+        let num3 = parseInt(num3Str)
+
+        const summa = num1 + num2 + num3
+        const tulo = num1*num2*num3
+        const keskiarvo = (num1+num2+num3)/3
+
+        document.write("Summa on " + summa + "<br>");
+        document.write("Tulo on " + tulo + "<br>");
+        document.write("Keskiarvo on " + keskiarvo);
+    </script>
+</body>
+</html>
