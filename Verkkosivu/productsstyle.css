@@ -113,10 +113,16 @@ nav a:hover {
     font-size: 12px;
     margin-left: 26px;
     margin-right: 26px;
-    margin-top: 25px;
+    margin-top: 13px;
     text-align: left;
 }
 
 .product h2 {
     margin-left: 26px;
+    font-size: 12px;
+}
+
+.product h3 {
+    margin-left: 45px;
+    font-size: 20px;
 }
